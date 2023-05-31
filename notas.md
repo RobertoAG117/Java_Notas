@@ -78,16 +78,49 @@ public class Variables{
 ----public static void main (String[args]){
     int edad;
     float calificacion;
-    bool aprobe;
+    bool aprobo;
 // inicializa valor
-    nombre="Juan";
+    nombre = "Juan";
+    edad = 30;
+    calificacion = 8.5;
+    aprobo = true;
+    //sirve para imprimir
+    System.out.printIn(nombre, edad, calificacion, aprobo);
     
+    
+ejemplo  funcion(argumento)
+cada que pidamos un tipo de dato es necesario ponerle sus respecticas comillas si las necesita
+ funcion("nombre", "hola")
+
+clases y metodos no llevan ; 
+
+javac "nombre" variables.java
 
 
+C:\Users\PILARES\Documents\Wolf\java
 
+Tenemos diversos tipos de datos por lo que trabajaremos con los soguientes
+los enteros tipo byte seran del -128 al 127
+el tipo de dato short será del -32000 al 32000
+int = a -2140000 al 2140000
+los tipos de dato mayores a 2 millones son long 
 
+Para los tipos flotante son
+double y float
+Double será para 12 espacios luego del punto  
+float es para 8 espacios luego del punto 
 
+Para los caracteres
+char será para un solo caracter con comillas "A"
+String para los más largos
 
+Los tipos boleanos serán
+boolean = true/false
+de momento para poner espacios en la impresion usaremos +" "+
+EL código es
+![image](https://github.com/RobertoAG117/Java_Notas/assets/125500565/3041db8e-1bb3-4ad3-83c4-57a8f2c72eed)
+el resultado de la compilacion fue
+![image](https://github.com/RobertoAG117/Java_Notas/assets/125500565/46fde224-cb05-4ded-97cc-0ae25192c0ce)
 
 
 
