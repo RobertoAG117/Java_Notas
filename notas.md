@@ -122,8 +122,7 @@ EL código es
 el resultado de la compilacion fue
 ![image](https://github.com/RobertoAG117/Java_Notas/assets/125500565/46fde224-cb05-4ded-97cc-0ae25192c0ce)
 
-
-
+podemos hacer uso de un "/n" para que haga u brinquito y poder imprimir
 
 
 
