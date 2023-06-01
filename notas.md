@@ -125,8 +125,12 @@ el resultado de la compilacion fue
 podemos hacer uso de un "/n" para que haga u brinquito y poder imprimir
 
 
-
-
+## Notas del día 01/06/2023
+Operadores 
+Se utilizan datos guardados en variables
+las herramientas que usaremos serán 
+vscode (para poner el código)
+herramienta para ubicar el código es 
 
 
 
