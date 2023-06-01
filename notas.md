@@ -105,14 +105,17 @@ el tipo de dato short será del -32000 al 32000
 int = a -2140000 al 2140000
 los tipos de dato mayores a 2 millones son long 
 
+
 Para los tipos flotante son
 double y float
 Double será para 12 espacios luego del punto  
 float es para 8 espacios luego del punto 
 
+
 Para los caracteres
 char será para un solo caracter con comillas "A"
 String para los más largos
+
 
 Los tipos boleanos serán
 boolean = true/false
