@@ -153,6 +153,24 @@ public class wolfwolf{
 }
 en caso de querer determinar la edad en base el año del sistema tenemos que poner una variable extra
 
+![image](https://github.com/RobertoAG117/Java_Notas/assets/125500565/af066291-0285-4235-8197-b43b3648148e)
+import java.util.*;
+public class wolfwolf{
+    public static void main (String[]args){
+        Calendar fecha = new GregorianCalendar();
+        int año = fecha.get(Calendar.YEAR);
+        Scanner sc1 = new Scanner(System.in);
+        System.out.print("Ingres el año de nacimiento ");
+        int añodenacimiento= sc1.nextInt();
+        int resta= año-añodenacimiento;
+        System.out.println("Su edad es"+" "+resta);
+        boolean mayor= resta>=18;
+        System.out.println("Si es mayor imprime true si es menor imprime false"+" "+"determinamos con lo anterior que la persona es "+mayor);
+    }
+}
+
+
+
 Tedremos 3 tipos de condicionantes
 por lo que vamos a retomar los diagramas de flujo para tener un mejor orden y no confundirse
 
@@ -182,15 +200,57 @@ if(condicion){
 }else if(condicion){
 } // puede tener un else o no dependiendo//
 
+![image](https://github.com/RobertoAG117/Java_Notas/assets/125500565/743ba92d-427d-469c-a0ac-bf4af817fe6a)
 
+import java.util.*;
+public class wolfwolf{
+    public static void main (String[]args){
+        Calendar fecha = new GregorianCalendar();
+        int año = fecha.get(Calendar.YEAR);
+        Scanner sc1 = new Scanner(System.in);
+        System.out.print("Ingres el año de nacimiento ");
+        int añodenacimiento= sc1.nextInt();
+        int resta= año-añodenacimiento;
+        System.out.println("Su edad es"+" "+resta);
+        if(resta>=18){
+            System.out.println("es mayor de edad");
+        }else{
+            System.out.println("es menor de edad");
+            }
+        
+    }
+}
 
+en este caso es un poco más complejo hicimos uso de las condicionales
 
+![image](https://github.com/RobertoAG117/Java_Notas/assets/125500565/8f16f99c-4ba6-4e8e-bd5e-8501a8d9745f)
+realizamos un ejemplo de condicionante añadida por lo que veremos muchos else if
 
-
-
-
-
-
+import java.util.*;
+public class wolfwolf{
+    public static void main (String[]args){
+        Calendar fecha = new GregorianCalendar();
+        int año = fecha.get(Calendar.YEAR);
+        Scanner sc1 = new Scanner(System.in);
+        System.out.print("Ingres el año de nacimiento ");
+        int añodenacimiento= sc1.nextInt();
+        int resta= año-añodenacimiento;
+        System.out.println("Su edad es"+" "+resta);
+        if(resta>=10 && resta <=15){
+            System.out.println("es niño");
+        }else if(resta>=16 && resta <=17){
+            System.out.println("es adolescente");
+        }else if(resta>=18 && resta <=25){
+            System.out.println("es joven");
+        }else if(resta>=26 && resta <=35){
+            System.out.println("es joven adulto");
+        }else if(resta>=36 && resta <=60){
+            System.out.println("es adulto");
+        }else if(resta>=60 && resta <=200){
+            System.out.println("es tercera edad");
+        }
+    }
+}
 
 
 
