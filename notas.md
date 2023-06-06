@@ -135,6 +135,65 @@ las herramientas que usaremos serán
 vscode (para poner el código)
 herramienta para ubicar el código es 
 
+ Hoy haremos un programa para determinar la edad de una personas en base al año de nacimiento e java 
+ esta fue mi propuesta
+ ![image](https://github.com/RobertoAG117/Java_Notas/assets/125500565/f4338636-8b12-4ac0-9a96-aa4a0c35573e)
+
+import java.util.Scanner;
+public class wolfwolf{
+    public static void main (String[]args){
+        Scanner sc1 = new Scanner(System.in);
+        System.out.print("Ingres el año de nacimiento ");
+        int añodenacimiento= sc1.nextInt();
+        int resta= 2023-añodenacimiento;
+        System.out.println("Su edad es"+" "+resta);
+        boolean mayor= resta>=18;
+        System.out.println("Si es mayor imprime true si es menor imprime false"+" "+mayor);
+    }
+}
+en caso de querer determinar la edad en base el año del sistema tenemos que poner una variable extra
+
+Tedremos 3 tipos de condicionantes
+por lo que vamos a retomar los diagramas de flujo para tener un mejor orden y no confundirse
+
+simple
+por ejemplo si tenemos la edad y es mayo o igual a 18 sice que es mayor pero si no, no pasa nada
+![image](https://github.com/RobertoAG117/Java_Notas/assets/125500565/eeaa54fe-36d5-468b-9361-59d08609619f)
+
+compuesta 
+en este mismo ejemplo nos dira en caso opuesto que es menor}
+![image](https://github.com/RobertoAG117/Java_Notas/assets/125500565/6ba58dfa-d0bc-4f9d-805a-65e1bf01fda6)
+
+añadida
+pero en lugar de imprimir un resultado nos manda a otra condicion o prosigue sin mayor problema por lo que toma otro camino el programa 
+![image](https://github.com/RobertoAG117/Java_Notas/assets/125500565/eeeb52da-93dd-493a-9887-42a5c1ba2147)
+
+
+dependiendo usaremos diversos tipos en este caso usaremos un if para el ejemplo
+(CONDICIONANTE SIMPLE)
+if(condicion){
+ejecucion
+(CONDICIONANTE COMPUESTA)
+if(condicion){
+}else{
+}
+(CONDICIONANTE AÑADIDA)
+if(condicion){
+}else if(condicion){
+} // puede tener un else o no dependiendo//
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
