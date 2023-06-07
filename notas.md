@@ -303,5 +303,37 @@ public class wolfwolf{
     }
 }
 
+-----------------------------------------------------------------------------------
+Día 07/06/2023
+Repaso de condicionales
+si tenemos un 
+if(condicinal){
+ ejecutar
+ }else{
+  ejecutar
+ }
+
+podemo tener condicionantes mas complejas como 
+if(condicinal){
+ ejecutar
+ }else if{
+  ejecutar
+ }else{
+  
+ }
+en el cual tenemos la opción de alargarlo infinitamente siempre y cuando respetemos que luego de cada else if irá otro else if
+si es necesario se pondrá un else para finalizar 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
