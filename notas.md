@@ -324,8 +324,47 @@ if(condicinal){
 en el cual tenemos la opción de alargarlo infinitamente siempre y cuando respetemos que luego de cada else if irá otro else if
 si es necesario se pondrá un else para finalizar 
 
+Dependiendo del ciclo y las condiconales que tengamos es cuando se va a detener por lo que para evitar bucles tendremos que poner una condicional que 
+sea especifica en el diagrama de flujo
+en java tenemos:
+while:
+este tipo se ejecuta infinitamente hasta que se le ponga una condicion o que tengamos una condicional 
+este primero valida y luego pregunta o ejecuta
 
+dowhile:
+este primero pregunta o ejecuta y liego valida
+for:
+es para cuando sabemos cuantas veces se va a ejecutar el código 
 
+el ciclo for tiene como estructura: (inicia, hasta, aumenta)/(inicio, condicion, incremento)
+for(condicion ){
+   ejecucion
+}
+for es una variable local por lo que podemos tener otras variables las cuales solo afectan al ciclo for}
+este tiene como variables las letras empezando por la i,j,k,l,m, etc
+el ejemplo es:
+   (inicia, hasta, aumenta)
+for(int i=1: i==10; i=1){
+   System.out.println(i);
+}
+con el break podemos romper el ciclo, por lo que en cuanto lo lea se va a salir (break;)
+todo lo que esta debajo del break ya no lo ejecuta
+
+si usamos (continue;) permite saltar y seguir a la siguiente instacia que encuentre /sirve para romper el ciclo pero funciona para salir del for
+
+while: (mientras)
+es una clase
+su estructura es;
+      (condicion)
+while (i =='s'){
+  i="n";
+}
+tenemos que dar la posibilidad de cambiar el ciclo para salir de este, no sale sola por lo que se puede buclear
+
+para el do while la estructura es:
+do{
+   i="n";
+}while();
 
 
 
