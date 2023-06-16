@@ -366,8 +366,22 @@ do{
    i="n";
 }while();
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Para el ejercicio del día 16/06/2023 
+realizaremos un ejercicio en el cual solicita un arreglo y un ciclo
+![image](https://github.com/RobertoAG117/Java_Notas/assets/125500565/3dae9b40-63f6-4969-8263-9de74ddf3bdf)
 
+public class ArregloNumeros {
+    public static void main(String[] args) {
+        int[] numeros = {12, 10, 4, 24, 5, 9};
 
+        for (int i = 0; i < numeros.length; i++) {
+            System.out.println("El arreglo en la posición " + i + " tiene el número " + numeros[i]);
+        }
+    }
+}
+
+esta es mi primera versión pero podemos mejorar el código 
 
 
 
