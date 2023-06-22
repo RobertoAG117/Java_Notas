@@ -383,6 +383,67 @@ public class ArregloNumeros {
 
 esta es mi primera versión pero podemos mejorar el código 
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+hoy veremos el proceso de abstraccion 
+por lo que para esta sesión tomaremos en cuenta un diferente tipode programacion
+
+es necesario tener diversos tipos de copias por lo que es necesario tener un machote
+es necesario ir sacando copias para rellenar en lugar de llenar en el original por lo que no se va a guardar nada en el original 
+dependiendo de los requisitos del programa veremos los diversos tipos de variables
+la bastraccion es la selccion de que es necesario y que no, por lo que es necesario identificar que datos son necesarios y cuales no 
+
+cada documento tiene usabilidad, por lo que podemos usar los metodos(funciones)
+por lo que es necesario ver que podemos hacer ejemplo
+guardarlo, modificarlo, eliminarlo, consultarlo
+
+instanciar es sacar un copía del molde para usarla, por lo que el molde sería la clase
+
+para ciertos casos tendremos que modificar el formato con las mismas caracteristicas pero agregando algo 
+
+para el elemento principal es nombrado la super clase, para la copia seria 
+no tiene limite para heredar copias sin embargo podemos tener modificaiones pero el orignal nunca debe cambiar
+
+polimorfismo (se llama igual pero trabaja de forma diferente)
+el encapsulamiento es como proteges los objetos de modificaciones no requeridas u problemas ajenos al programa
+tendremos diversas variables
+
+class
+string
+int
+boolean
+void()
+
+es necesario que para encapsular usar get y set ya que dependemos de las metodologías 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
