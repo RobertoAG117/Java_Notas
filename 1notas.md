@@ -420,11 +420,34 @@ es necesario que para encapsular usar get y set ya que dependemos de las metodol
 
 
 
+Arrays (Ordenamiento)
+[4,3,1,5,2]
+
+Podemos ordernar con 
+- ordenamiento de burbuja
+- rápida
+- inserción
+
+Ordenamiento de burbuja
+hace referencia a las burbujas, por lo que las más pequeñas suben
+por lo que hace comparaciones, con los elementos de los costados, dependiendo del elemento, es como se ordenan los elementos
+dependiendo de si cada elemento es menor o mayor se cambiará el órden
+(se comparan los valores varas veces para identificar, cual es diferente
+
+necesitamos tener un indice, se compara de izquierda a derecha, por lo que se compara con el elemento que se tenga a lado
 
 
+rápida
+se necesitan 3 variables, el incio, el final y el pivote
+por lo que va a dividir, cuales estan en mayor y en menor, dependiendo del elemento, simplemente compara entre los que son mayores y menores al elemento seleccionado, ordenando los menos de lado izquierdo y los mayores de lado derecho 
+
+inserción
+en el motodo por inserción se tiene que ir recorriendo respectivamente, ya que va moviendo por posiciones
+el indice será el encargado de verificar si el elemento es menor o mayor respectivamente 
 
 
-
+dependiendo de la necesidad del programa será el procedimiento a usar
+ne
 
 
 
